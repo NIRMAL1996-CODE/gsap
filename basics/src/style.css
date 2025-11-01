@@ -19,17 +19,20 @@ body{
   color: black; 
   overflow: hidden;
 }
-#box1, #box2{
+.box1, .box2{
   height: 100px;
   width: 100px;
   margin: 10px;
   padding: 10px;
   text-align: center;
-  border-radius: 5px;
+  border: radius 100px;;
 }
-#box1{
+.box1 { left: 0; top: 0; }
+.box2 { right: 0; top: 0; }
+
+.box1{
   background-color: rgb(216, 248, 91);
 }
-#box2{
+.box2{
   background-color: rgb(81, 207, 241);
 }

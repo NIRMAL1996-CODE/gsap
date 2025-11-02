@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+  font-family: sans-serif;
+  color: black;
+  
+}
+#page1,#page2,#page3{
+  height: 100vh;
+  width: 100%;
+}
+.marque img{
+  width: 70px;
+  padding: 8px;
+}
+.marque h1{
+  font-size: 50px;
+}
+
+#page1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#move{
+  background-color: rgb(214, 255, 173);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.marque{
+ padding: 10px;
+ display: flex;
+ flex-shrink: 0;
+ gap: 20px;
+ transform:translateX(-100%)
+}
+

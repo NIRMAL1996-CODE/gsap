@@ -11,14 +11,14 @@ tl.from(".nav",{
 tl.from(".menu a",{
   y:-30,
   opacity:0,
-  duration:2,
+  duration:1,
   delay:0.1,
   stagger: 0.2,
 })
 
 tl.to(".box1", {
   x: 1000,
-  duration: 2,  
+  duration: 1,  
   rotate: 360,
   borderRadius: "50%",
 });

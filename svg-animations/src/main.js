@@ -10,7 +10,7 @@ string.addEventListener("mousemove", (details)=>{
    gsap.to("svg path",{
     attr: {d:path},
     duration:0.3,
-    ease:"power3.Out"
+    ease:"power3.Out",
    })
 });
 

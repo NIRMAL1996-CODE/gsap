@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cursor</title>
+  </head>
+  <body class="bg-linear-to-r from-gray-700 via-white to-gray-700">
+    <div id="cursor" class="h-5 w-5 fixed z-2 0 bg-[#0f172a] rounded-full"></div>
+    <div id="main" class="h-full w-full flex justify-center items-center ">
+      <div class="img relative bg-amber-200 h-[400px] w-[700px] ">
+        <div class="overlay absolute opacity-0 z-10 w-full h-full bg-amber-200 "></div>
+        <img class="w-full h-full object-cover" src="/bg1.jpg" alt="darksky">
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

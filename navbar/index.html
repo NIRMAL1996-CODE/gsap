@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+  
+    <div class="main relative h-full w-full bg-[url('/img4.jpg')] bg-cover bg-center">
+      <h1 class="text-2xl text-amber-100 p-3 font-extrabold" >Webby-Dexter</h1>
+       <i class=" menu fa-solid fa-bars text-amber-100 right-0 top-0 absolute m-2 p-2 text-3xl cursor-pointer"></i>
+       <div class="cursor h-4 w-4 bg-amber-100 rounded-full z-2 fixed"></div>
+      
+       <!-- navbartabs -->
+       <div class="nav absolute h-full w-[400px] -right-100 top-0 flex flex-col justify-center items-center backdrop-blur-md bg-white/10 text-center  text-3xl"> 
+        <a class="m-2 p-2 text-4xl font-semibold text-amber-100" href="home">HOME</a>
+        <a class="m-2 p-2 text-4xl font-semibold text-amber-100" href="about">ABOUT</a>
+        <a class="m-2 p-2 text-4xl font-semibold text-amber-100" href="services">CONTACT</a>
+        <a class="m-2 p-2 text-4xl font-semibold text-amber-100" href="contact">SERVICES</a> 
+        <i class="close fa-solid fa-xmark cursor-pointer text-amber-100 right-0 top-0 absolute m-2 p-2 text-3xl"></i>
+       </div>  
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
